@@ -15,7 +15,7 @@ export const defaultPluginOptions: NextPluginOptions = {}
  * @example
  * ```js
  * // next.config.mjs
- * import { createContentlayerPlugin } from '@shipixen/next-contentlayer'
+ * import { createContentlayerPlugin } from '@shipixen/next-contentlayer-module'
  *
  * const withContentlayer = createContentlayerPlugin({ configPath: './content/contentlayer.config.ts' })
  *
@@ -69,7 +69,7 @@ export const createContentlayerPlugin =
  * @example
  * ```js
  * // next.config.mjs
- * import { withContentlayer } from '@shipixen/next-contentlayer'
+ * import { withContentlayer } from '@shipixen/next-contentlayer-module'
  *
  * export default withContentlayer({
  *   // My Next.js config

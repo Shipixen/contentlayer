@@ -14,7 +14,7 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    "**/dist": true,
+    "**/dist": false,
     "**/vercel.json": true,
     "**/.yarn": true,
     "**/.direnv": true

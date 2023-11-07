@@ -1,6 +1,0 @@
-export { Blog } from './documents/Blog'
-export { Config } from './documents/Config'
-export { Landing } from './documents/Landing'
-export { Page } from './documents/Page'
-export { Person } from './documents/Person'
-export { Post } from './documents/Post'

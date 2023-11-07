@@ -1,5 +1,5 @@
 {
-  "name": "@shipixen/next-contentlayer",
+  "name": "@shipixen/next-contentlayer-module",
   "version": "0.3.4",
   "type": "module",
   "main": "./dist/index-cjs.cjs",
@@ -35,7 +35,7 @@
     "./package.json"
   ],
   "scripts": {
-    "prepack": "sed '/^import\\|^export/d' dist/index-cjs.js > dist/index-cjs.cjs; cp src/hooks/jsx-runtime.cjs dist/hooks/jsx-runtime.cjs"
+    "prepack": "sed -e '/^import/d' -e '/^export/d' dist/index-cjs.js > dist/index-cjs.cjs; cp src/hooks/jsx-runtime.cjs dist/hooks/jsx-runtime.cjs"
   },
   "dependencies": {
     "@contentlayer/core": "workspace:*",
