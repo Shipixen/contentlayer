@@ -1,5 +1,5 @@
 {
-  "name": "next-contentlayer",
+  "name": "@shipixen/next-contentlayer",
   "version": "0.3.4",
   "type": "module",
   "main": "./dist/index-cjs.cjs",
@@ -43,7 +43,7 @@
   },
   "peerDependencies": {
     "contentlayer": "workspace:*",
-    "next": "^12 || ^13",
+    "next": "^12 || ^13 || ^14",
     "react": "*",
     "react-dom": "*"
   },
