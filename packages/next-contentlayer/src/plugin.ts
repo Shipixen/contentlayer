@@ -37,12 +37,12 @@ const runContentlayerBuild = async ({ configPath }: NextPluginOptions) => {
     core.getConfig({ configPath }),
     T.chain((config) => core.generateDotpkg({ config, verbose: false })),
     T.tap(core.logGenerateInfo),
-    OT.withSpan('next-contentlayer:runContentlayerBuild'),
+    OT.withSpan('@shipixen/next-contentlayer:runContentlayerBuild'),
     runMain,
   )
 }
 
-const runMain = core.runMain({ tracingServiceName: 'next-contentlayer', verbose: process.env.CL_DEBUG !== undefined })
+const runMain = core.runMain({ tracingServiceName: '@shipixen/next-contentlayer', verbose: process.env.CL_DEBUG !== undefined })
 
 export const runBeforeWebpackCompile = async ({
   mode,

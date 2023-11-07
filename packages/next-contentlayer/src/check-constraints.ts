@@ -27,13 +27,13 @@ const checkNodeVersion = () => {
 
 const checkContentlayerVersionsMatch = () => {
   const contentlayerVersion = getPackageVersion('contentlayer')
-  const nextContentlayerVersion = getPackageVersion('next-contentlayer')
+  const nextContentlayerVersion = getPackageVersion('@shipixen/next-contentlayer')
 
   if (contentlayerVersion !== nextContentlayerVersion) {
     throw new Error(
       `\
-The versions of "contentlayer" and "next-contentlayer" need to be identical in your "package.json".
-Currently used versions: contentlayer: "${contentlayerVersion}", next-contentlayer: "${nextContentlayerVersion}"`,
+The versions of "contentlayer" and "@shipixen/next-contentlayer" need to be identical in your "package.json".
+Currently used versions: contentlayer: "${contentlayerVersion}", @shipixen/next-contentlayer: "${nextContentlayerVersion}"`,
     )
   }
 }
