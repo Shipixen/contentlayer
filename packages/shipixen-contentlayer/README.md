@@ -140,8 +140,8 @@ Join [our Discord community](https://discord.gg/fk83HNECYJ) to get help, suggest
 Are you using Contentlayer? Please add your page (and repo) to the end of the list via a PR. 🙏
 
 ## Releasing
-```
+```bash
 nvm use v16
-yarn install
+yarn # always run yarn before releasing
 npm run release:patch
 ```
