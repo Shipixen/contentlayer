@@ -16,7 +16,7 @@ import { convertSchema } from './convert.js'
 import { toYamlString } from './utils.js'
 
 const defaultStackbitYamlPath = () => `${path.join(process.cwd())}/stackbit.yaml`
-const defaultTransformPath = () => `${path.join(process.cwd())}/contentlayer-stackbit-yaml-generator.js`
+const defaultTransformPath = () => `${path.join(process.cwd())}/shipixen-contentlayer-stackbit-yaml-generator.js`
 
 export class DefaultCommand extends Command {
   configPath = Option.String('-c,--config', 'contentlayer.config.ts', {
@@ -40,7 +40,7 @@ export class DefaultCommand extends Command {
     try {
       await pipe(
         this.executeSafe(),
-        provideJaegerTracing('contentlayer-stackbit-yaml-generator'),
+        provideJaegerTracing('shipixen-contentlayer-stackbit-yaml-generator'),
         T.tapCause((cause) => T.die(pretty(cause))),
         provideCwd,
         provideConsole,

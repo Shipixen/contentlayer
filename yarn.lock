@@ -294,155 +294,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@shipixen/cli@workspace:*, @shipixen/cli@workspace:packages/@shipixen/cli":
-  version: 0.0.0-use.local
-  resolution: "@shipixen/cli@workspace:packages/@shipixen/cli"
-  dependencies:
-    "@shipixen/core": "workspace:*"
-    "@shipixen/utils": "workspace:*"
-    "@types/node": ^20.3.2
-    clipanion: ^3.2.1
-    typanion: ^3.12.1
-  languageName: unknown
-  linkType: soft
-
-"@shipixen/client@workspace:*, @shipixen/client@workspace:packages/@shipixen/client":
-  version: 0.0.0-use.local
-  resolution: "@shipixen/client@workspace:packages/@shipixen/client"
-  dependencies:
-    "@shipixen/core": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@shipixen/core@workspace:*, @shipixen/core@workspace:packages/@shipixen/core":
-  version: 0.0.0-use.local
-  resolution: "@shipixen/core@workspace:packages/@shipixen/core"
-  dependencies:
-    "@shipixen/utils": "workspace:*"
-    "@types/source-map-support": ^0.5.6
-    camel-case: ^4.1.2
-    comment-json: ^4.2.3
-    esbuild: 0.17.x || 0.18.x
-    gray-matter: ^4.0.3
-    markdown-wasm: ^1.2.0
-    mdx-bundler: ^9.2.1
-    rehype-stringify: ^9.0.3
-    remark-frontmatter: ^4.0.1
-    remark-parse: ^10.0.2
-    remark-rehype: ^10.1.0
-    source-map-support: ^0.5.21
-    type-fest: ^3.12.0
-    unified: ^10.1.2
-  peerDependencies:
-    esbuild: 0.17.x || 0.18.x
-    markdown-wasm: 1.x
-  peerDependenciesMeta:
-    esbuild:
-      optional: true
-    markdown-wasm:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@shipixen/experimental-source-files-stackbit@workspace:packages/@shipixen/experimental-source-files-stackbit":
-  version: 0.0.0-use.local
-  resolution: "@shipixen/experimental-source-files-stackbit@workspace:packages/@shipixen/experimental-source-files-stackbit"
-  dependencies:
-    "@shipixen/core": "workspace:*"
-    "@shipixen/source-files": "workspace:*"
-    "@shipixen/utils": "workspace:*"
-    "@stackbit/sdk": ~0.3.25
-    vite: ^4.3.1
-    vitest: 0.30.1
-  peerDependencies:
-    "@stackbit/sdk": 0.3.x
-  peerDependenciesMeta:
-    "@stackbit/sdk":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@shipixen/source-contentful@workspace:packages/@shipixen/source-contentful":
-  version: 0.0.0-use.local
-  resolution: "@shipixen/source-contentful@workspace:packages/@shipixen/source-contentful"
-  dependencies:
-    "@shipixen/core": "workspace:*"
-    "@shipixen/utils": "workspace:*"
-    "@types/node": ^20.3.2
-    contentful-management: 7.22.4
-  languageName: unknown
-  linkType: soft
-
-"@shipixen/source-files@workspace:*, @shipixen/source-files@workspace:packages/@shipixen/source-files":
-  version: 0.0.0-use.local
-  resolution: "@shipixen/source-files@workspace:packages/@shipixen/source-files"
-  dependencies:
-    "@shipixen/core": "workspace:*"
-    "@shipixen/utils": "workspace:*"
-    "@faker-js/faker": ^8.0.2
-    "@types/micromatch": ^4.0.2
-    "@types/node": ^20.3.2
-    "@types/sharp": ^0.32.0
-    "@types/yaml": ^1.9.7
-    chokidar: ^3.5.3
-    fast-glob: ^3.2.12
-    gray-matter: ^4.0.3
-    imagescript: ^1.2.16
-    micromatch: ^4.0.5
-    sharp: ^0.32.1
-    ts-pattern: ^4.3.0
-    unified: ^10.1.2
-    vite: ^4.3.1
-    vitest: 0.30.1
-    yaml: ^2.3.1
-    zod: ^3.21.4
-  languageName: unknown
-  linkType: soft
-
-"@shipixen/source-remote-files@workspace:*, @shipixen/source-remote-files@workspace:packages/@shipixen/source-remote-files":
-  version: 0.0.0-use.local
-  resolution: "@shipixen/source-remote-files@workspace:packages/@shipixen/source-remote-files"
-  dependencies:
-    "@shipixen/core": "workspace:*"
-    "@shipixen/source-files": "workspace:*"
-    "@shipixen/utils": "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"@shipixen/utils@workspace:*, @shipixen/utils@workspace:packages/@shipixen/utils":
-  version: 0.0.0-use.local
-  resolution: "@shipixen/utils@workspace:packages/@shipixen/utils"
-  dependencies:
-    "@effect-ts/core": ^0.60.5
-    "@effect-ts/otel": ^0.15.1
-    "@effect-ts/otel-exporter-trace-otlp-grpc": ^0.15.1
-    "@effect-ts/otel-sdk-trace-node": ^0.15.1
-    "@js-temporal/polyfill": ^0.4.4
-    "@opentelemetry/api": ^1.4.1
-    "@opentelemetry/core": ^1.13.0
-    "@opentelemetry/exporter-trace-otlp-grpc": ^0.39.1
-    "@opentelemetry/resources": ^1.13.0
-    "@opentelemetry/sdk-trace-base": ^1.13.0
-    "@opentelemetry/sdk-trace-node": ^1.13.0
-    "@opentelemetry/semantic-conventions": ^1.13.0
-    "@types/inflection": ^1.13.0
-    chokidar: ^3.5.3
-    hash-wasm: ^4.9.0
-    inflection: ^2.0.1
-    memfs: ^3.5.1
-    oo-ascii-tree: ^1.84.0
-    ts-pattern: ^4.3.0
-    type-fest: ^3.12.0
-  peerDependenciesMeta:
-    "@effect-ts/core":
-      optional: true
-    "@effect-ts/otel":
-      optional: true
-    "@effect-ts/otel-node":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
 "@cspotcode/source-map-support@npm:^0.8.0":
   version: 0.8.1
   resolution: "@cspotcode/source-map-support@npm:0.8.1"
@@ -1481,6 +1332,74 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@shipixen/cli@workspace:*, @shipixen/cli@workspace:packages/@shipixen/cli":
+  version: 0.0.0-use.local
+  resolution: "@shipixen/cli@workspace:packages/@shipixen/cli"
+  dependencies:
+    "@shipixen/core": "workspace:*"
+    "@shipixen/utils": "workspace:*"
+    "@types/node": ^20.3.2
+    clipanion: ^3.2.1
+    typanion: ^3.12.1
+  languageName: unknown
+  linkType: soft
+
+"@shipixen/client@workspace:*, @shipixen/client@workspace:packages/@shipixen/client":
+  version: 0.0.0-use.local
+  resolution: "@shipixen/client@workspace:packages/@shipixen/client"
+  dependencies:
+    "@shipixen/core": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"@shipixen/core@workspace:*, @shipixen/core@workspace:packages/@shipixen/core":
+  version: 0.0.0-use.local
+  resolution: "@shipixen/core@workspace:packages/@shipixen/core"
+  dependencies:
+    "@shipixen/utils": "workspace:*"
+    "@types/source-map-support": ^0.5.6
+    camel-case: ^4.1.2
+    comment-json: ^4.2.3
+    esbuild: 0.17.x || 0.18.x
+    gray-matter: ^4.0.3
+    markdown-wasm: ^1.2.0
+    mdx-bundler: ^9.2.1
+    rehype-stringify: ^9.0.3
+    remark-frontmatter: ^4.0.1
+    remark-parse: ^10.0.2
+    remark-rehype: ^10.1.0
+    source-map-support: ^0.5.21
+    type-fest: ^3.12.0
+    unified: ^10.1.2
+  peerDependencies:
+    esbuild: 0.17.x || 0.18.x
+    markdown-wasm: 1.x
+  peerDependenciesMeta:
+    esbuild:
+      optional: true
+    markdown-wasm:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@shipixen/experimental-source-files-stackbit@workspace:packages/@shipixen/experimental-source-files-stackbit":
+  version: 0.0.0-use.local
+  resolution: "@shipixen/experimental-source-files-stackbit@workspace:packages/@shipixen/experimental-source-files-stackbit"
+  dependencies:
+    "@shipixen/core": "workspace:*"
+    "@shipixen/source-files": "workspace:*"
+    "@shipixen/utils": "workspace:*"
+    "@stackbit/sdk": ~0.3.25
+    vite: ^4.3.1
+    vitest: 0.30.1
+  peerDependencies:
+    "@stackbit/sdk": 0.3.x
+  peerDependenciesMeta:
+    "@stackbit/sdk":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@shipixen/next-contentlayer-module@workspace:packages/next-contentlayer":
   version: 0.0.0-use.local
   resolution: "@shipixen/next-contentlayer-module@workspace:packages/next-contentlayer"
@@ -1493,10 +1412,91 @@ __metadata:
     typescript: ^5.1.6
     webpack: ^5.88.1
   peerDependencies:
-    contentlayer: "workspace:*"
     next: ^12 || ^13 || ^14
     react: "*"
     react-dom: "*"
+    shipixen-contentlayer: "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"@shipixen/source-contentful@workspace:packages/@shipixen/source-contentful":
+  version: 0.0.0-use.local
+  resolution: "@shipixen/source-contentful@workspace:packages/@shipixen/source-contentful"
+  dependencies:
+    "@shipixen/core": "workspace:*"
+    "@shipixen/utils": "workspace:*"
+    "@types/node": ^20.3.2
+    contentful-management: 7.22.4
+  languageName: unknown
+  linkType: soft
+
+"@shipixen/source-files@workspace:*, @shipixen/source-files@workspace:packages/@shipixen/source-files":
+  version: 0.0.0-use.local
+  resolution: "@shipixen/source-files@workspace:packages/@shipixen/source-files"
+  dependencies:
+    "@faker-js/faker": ^8.0.2
+    "@shipixen/core": "workspace:*"
+    "@shipixen/utils": "workspace:*"
+    "@types/micromatch": ^4.0.2
+    "@types/node": ^20.3.2
+    "@types/sharp": ^0.32.0
+    "@types/yaml": ^1.9.7
+    chokidar: ^3.5.3
+    fast-glob: ^3.2.12
+    gray-matter: ^4.0.3
+    imagescript: ^1.2.16
+    micromatch: ^4.0.5
+    sharp: ^0.32.1
+    ts-pattern: ^4.3.0
+    unified: ^10.1.2
+    vite: ^4.3.1
+    vitest: 0.30.1
+    yaml: ^2.3.1
+    zod: ^3.21.4
+  languageName: unknown
+  linkType: soft
+
+"@shipixen/source-remote-files@workspace:*, @shipixen/source-remote-files@workspace:packages/@shipixen/source-remote-files":
+  version: 0.0.0-use.local
+  resolution: "@shipixen/source-remote-files@workspace:packages/@shipixen/source-remote-files"
+  dependencies:
+    "@shipixen/core": "workspace:*"
+    "@shipixen/source-files": "workspace:*"
+    "@shipixen/utils": "workspace:*"
+  languageName: unknown
+  linkType: soft
+
+"@shipixen/utils@workspace:*, @shipixen/utils@workspace:packages/@shipixen/utils":
+  version: 0.0.0-use.local
+  resolution: "@shipixen/utils@workspace:packages/@shipixen/utils"
+  dependencies:
+    "@effect-ts/core": ^0.60.5
+    "@effect-ts/otel": ^0.15.1
+    "@effect-ts/otel-exporter-trace-otlp-grpc": ^0.15.1
+    "@effect-ts/otel-sdk-trace-node": ^0.15.1
+    "@js-temporal/polyfill": ^0.4.4
+    "@opentelemetry/api": ^1.4.1
+    "@opentelemetry/core": ^1.13.0
+    "@opentelemetry/exporter-trace-otlp-grpc": ^0.39.1
+    "@opentelemetry/resources": ^1.13.0
+    "@opentelemetry/sdk-trace-base": ^1.13.0
+    "@opentelemetry/sdk-trace-node": ^1.13.0
+    "@opentelemetry/semantic-conventions": ^1.13.0
+    "@types/inflection": ^1.13.0
+    chokidar: ^3.5.3
+    hash-wasm: ^4.9.0
+    inflection: ^2.0.1
+    memfs: ^3.5.1
+    oo-ascii-tree: ^1.84.0
+    ts-pattern: ^4.3.0
+    type-fest: ^3.12.0
+  peerDependenciesMeta:
+    "@effect-ts/core":
+      optional: true
+    "@effect-ts/otel":
+      optional: true
+    "@effect-ts/otel-node":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -3298,41 +3298,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"contentlayer-stackbit-yaml-generator@workspace:packages/contentlayer-stackbit-yaml-generator":
-  version: 0.0.0-use.local
-  resolution: "contentlayer-stackbit-yaml-generator@workspace:packages/contentlayer-stackbit-yaml-generator"
-  dependencies:
-    "@shipixen/core": "workspace:*"
-    "@shipixen/utils": "workspace:*"
-    "@stackbit/sdk": ^0.3.25
-    clipanion: ^3.2.1
-    contentlayer: "workspace:*"
-    typanion: 3.12.1
-    typescript: ^5.1.6
-    vite: ^4.3.1
-    vitest: 0.30.1
-    yaml: ^2.3.1
-  bin:
-    contentlayer-stackbit-yaml-generator: ./dist/cli/index.js
-  languageName: unknown
-  linkType: soft
-
-"contentlayer@workspace:*, contentlayer@workspace:packages/contentlayer":
-  version: 0.0.0-use.local
-  resolution: "contentlayer@workspace:packages/contentlayer"
-  dependencies:
-    "@shipixen/cli": "workspace:*"
-    "@shipixen/client": "workspace:*"
-    "@shipixen/core": "workspace:*"
-    "@shipixen/source-files": "workspace:*"
-    "@shipixen/source-remote-files": "workspace:*"
-    "@shipixen/utils": "workspace:*"
-    typescript: ^5.1.6
-  bin:
-    contentlayer: ./bin/cli.cjs
-  languageName: unknown
-  linkType: soft
-
 "core-util-is@npm:^1.0.3":
   version: 1.0.3
   resolution: "core-util-is@npm:1.0.3"
@@ -5122,8 +5087,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "integration-tests@workspace:packages/integration-tests"
   dependencies:
-    contentlayer: "workspace:*"
     remark-mdx-images: ^2.0.0
+    shipixen-contentlayer: "workspace:*"
     typescript: ^5.1.6
     vite: ^4.3.1
     vitest: 0.12.10
@@ -8065,6 +8030,41 @@ __metadata:
   checksum: 7babc46f732a98f4c054ec1f048b55b9149b98aa2da32f6cf9844c434b43c6251efebd6eec120937bd0999e13811ebd45efe17410edb3ca938f82f9381302748
   languageName: node
   linkType: hard
+
+"shipixen-contentlayer-stackbit-yaml-generator@workspace:packages/shipixen-contentlayer-stackbit-yaml-generator":
+  version: 0.0.0-use.local
+  resolution: "shipixen-contentlayer-stackbit-yaml-generator@workspace:packages/shipixen-contentlayer-stackbit-yaml-generator"
+  dependencies:
+    "@shipixen/core": "workspace:*"
+    "@shipixen/utils": "workspace:*"
+    "@stackbit/sdk": ^0.3.25
+    clipanion: ^3.2.1
+    shipixen-contentlayer: "workspace:*"
+    typanion: 3.12.1
+    typescript: ^5.1.6
+    vite: ^4.3.1
+    vitest: 0.30.1
+    yaml: ^2.3.1
+  bin:
+    shipixen-contentlayer-stackbit-yaml-generator: ./dist/cli/index.js
+  languageName: unknown
+  linkType: soft
+
+"shipixen-contentlayer@workspace:*, shipixen-contentlayer@workspace:packages/shipixen-contentlayer":
+  version: 0.0.0-use.local
+  resolution: "shipixen-contentlayer@workspace:packages/shipixen-contentlayer"
+  dependencies:
+    "@shipixen/cli": "workspace:*"
+    "@shipixen/client": "workspace:*"
+    "@shipixen/core": "workspace:*"
+    "@shipixen/source-files": "workspace:*"
+    "@shipixen/source-remote-files": "workspace:*"
+    "@shipixen/utils": "workspace:*"
+    typescript: ^5.1.6
+  bin:
+    shipixen-contentlayer: ./bin/cli.cjs
+  languageName: unknown
+  linkType: soft
 
 "side-channel@npm:^1.0.4":
   version: 1.0.4

@@ -42,10 +42,10 @@
     "@shipixen/utils": "workspace:*"
   },
   "peerDependencies": {
-    "contentlayer": "workspace:*",
     "next": "^12 || ^13 || ^14",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "shipixen-contentlayer": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

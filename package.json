@@ -42,9 +42,9 @@
   },
   "resolutions": {
     "esbuild": "0.18.0",
-    "contentlayer": "workspace:*",
+    "shipixen-contentlayer": "workspace:*",
     "@shipixen/*": "workspace:*",
-    "contentlayer-stackbit-yaml-generator": "workspace:*",
+    "shipixen-contentlayer-stackbit-yaml-generator": "workspace:*",
     "@shipixen/next-contentlayer-module": "workspace:*",
     "rxjs": "^7.1.0"
   },

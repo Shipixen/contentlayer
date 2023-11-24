@@ -21,8 +21,7 @@
       "@shipixen/utils/*": ["./packages/@shipixen/utils/src/*"],
       "@shipixen/source-files/*": ["./packages/@shipixen/source-files/src/*"],
       "@shipixen/*": ["./packages/@shipixen/*/src"],
-      "contentlayer/*": ["./packages/contentlayer/src/*"],
-      "contentlayer": ["./pacakges/contentlayer/src"]
+      "shipixen-contentlayer": ["./packages/shipixen-contentlayer/src"]
     }
   }
 }

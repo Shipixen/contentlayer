@@ -104,7 +104,7 @@
       "label": "build:contentlayer",
       "type": "shell",
       "command": "direnv exec . yarn build",
-      "options": { "cwd": "${workspaceFolder}/packages/contentlayer" },
+      "options": { "cwd": "${workspaceFolder}/packages/shipixen-contentlayer" },
       "presentation": {
         "focus": false,
         "panel": "dedicated",
@@ -160,7 +160,7 @@
       "label": "build:contentlayer-stackbit-yaml-generator",
       "type": "shell",
       "command": "direnv exec . yarn build",
-      "options": { "cwd": "${workspaceFolder}/packages/contentlayer-stackbit-yaml-generator" },
+      "options": { "cwd": "${workspaceFolder}/packages/shipixen-contentlayer-stackbit-yaml-generator" },
       "presentation": {
         "focus": false,
         "panel": "dedicated",

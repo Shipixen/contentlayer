@@ -1,7 +1,7 @@
 import { provideJaegerTracing } from '@shipixen/utils'
 import { pipe, provideConsole, T } from '@shipixen/utils/effect'
-import type { DocumentType } from 'contentlayer/source-files'
-import { makeSource } from 'contentlayer/source-files'
+import type { DocumentType } from 'shipixen-contentlayer/source-files'
+import { makeSource } from 'shipixen-contentlayer/source-files'
 
 import * as azimuth from './azimuth-schema/index.js'
 import * as blog from './blog-schema/index.js'

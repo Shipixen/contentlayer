@@ -33,7 +33,7 @@ export type ContentlayerOverrideNestedType = {
  * @example
  * ```ts
  * // contentlayer.config.ts
- * import { makeSource } from 'contentlayer/source-files'
+ * import { makeSource } from 'shipixen-contentlayer/source-files'
  * import { loadStackbitConfigAsDocumentTypes } from '@shipixen/experimental-source-files-stackbit'
  *
  * // Looks for `stackbit.yaml` in the current directory
@@ -59,7 +59,7 @@ export const loadStackbitConfigAsDocumentTypes = <TDocumentTypeNames extends cor
  * @example
  * ```ts
  * // contentlayer.config.ts
- * import { makeSource } from 'contentlayer/source-files'
+ * import { makeSource } from 'shipixen-contentlayer/source-files'
  * import { stackbitConfigToDocumentTypes } from '@shipixen/source-files-stackbit'
  * import stackbitConfig from './stackbit.config.js'
  *

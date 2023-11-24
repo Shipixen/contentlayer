@@ -1,5 +1,5 @@
 {
-  "name": "contentlayer-stackbit-yaml-generator",
+  "name": "shipixen-contentlayer-stackbit-yaml-generator",
   "version": "1.0.0",
   "type": "module",
   "bin": "./dist/cli/index.js",
@@ -23,7 +23,7 @@
     "yaml": "^2.3.1"
   },
   "devDependencies": {
-    "contentlayer": "workspace:*",
+    "shipixen-contentlayer": "workspace:*",
     "typescript": "^5.1.6",
     "vite": "^4.3.1",
     "vitest": "0.30.1"

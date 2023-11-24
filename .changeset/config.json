@@ -5,7 +5,7 @@
   "fixed": [
     [
       "@shipixen/*",
-      "contentlayer",
+      "shipixen-contentlayer",
       "next-contentlayer"
     ]
   ],

@@ -3,8 +3,8 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import { absolutePosixFilePath } from '@shipixen/utils'
-import * as core from 'contentlayer/core'
-import { defineDocumentType, makeSource } from 'contentlayer/source-files'
+import * as core from 'shipixen-contentlayer/core'
+import { defineDocumentType, makeSource } from 'shipixen-contentlayer/source-files'
 import { expect, test } from 'vitest'
 
 test('empty content folder', async () => {

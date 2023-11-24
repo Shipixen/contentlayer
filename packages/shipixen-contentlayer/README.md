@@ -138,3 +138,10 @@ Join [our Discord community](https://discord.gg/fk83HNECYJ) to get help, suggest
 - [floriankiem.com](floriandwt.com) ([Source](https://github.com/floriandwt/florians-website/))
 
 Are you using Contentlayer? Please add your page (and repo) to the end of the list via a PR. 🙏
+
+## Releasing
+```
+nvm use v16
+yarn install
+npm run release:patch
+```

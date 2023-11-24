@@ -9,7 +9,7 @@
   "include": ["./src"],
   "references": [
     { "path": "../@shipixen/utils" },
-    { "path": "../contentlayer" },
+    { "path": "../shipixen-contentlayer" },
     { "path": "../@shipixen/core" }
   ]
 }

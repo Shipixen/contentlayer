@@ -9,8 +9,8 @@
     { "path": "./packages/@shipixen/source-files" },
     { "path": "./packages/@shipixen/experimental-source-files-stackbit" },
     { "path": "./packages/@shipixen/utils" },
-    { "path": "./packages/contentlayer" },
-    { "path": "./packages/contentlayer-stackbit-yaml-generator" },
+    { "path": "./packages/shipixen-contentlayer" },
+    { "path": "./packages/shipixen-contentlayer-stackbit-yaml-generator" },
     { "path": "./packages/next-contentlayer" }
   ]
 }

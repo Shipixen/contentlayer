@@ -32,7 +32,7 @@ const checkContentlayerVersionsMatch = () => {
   if (contentlayerVersion !== nextContentlayerVersion) {
     throw new Error(
       `\
-The versions of "contentlayer" and "@shipixen/next-contentlayer-module" need to be identical in your "package.json".
+The versions of "shipixen-contentlayer" and "@shipixen/next-contentlayer-module" need to be identical in your "package.json".
 Currently used versions: contentlayer: "${contentlayerVersion}", @shipixen/next-contentlayer-module: "${nextContentlayerVersion}"`,
     )
   }
