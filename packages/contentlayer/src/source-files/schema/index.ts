@@ -1,1 +1,1 @@
-export * from '@contentlayer/source-files/schema/defs'
+export * from '@shipixen/source-files/schema/defs'

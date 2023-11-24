@@ -1,5 +1,5 @@
-import { provideJaegerTracing } from '@contentlayer/utils'
-import { pipe, provideConsole, T } from '@contentlayer/utils/effect'
+import { provideJaegerTracing } from '@shipixen/utils'
+import { pipe, provideConsole, T } from '@shipixen/utils/effect'
 import type { DocumentType } from 'contentlayer/source-files'
 import { makeSource } from 'contentlayer/source-files'
 

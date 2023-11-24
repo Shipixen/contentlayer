@@ -1,7 +1,7 @@
 // NOTE sanity currently doesn't provide ESM exports, thus the require syntax is needed
 const SantityImageUrlBuilder = require('@sanity/image-url')
 // import SantityImageUrlBuilder from '@sanity/image-url'
-import type * as Core from '@contentlayer/core'
+import type * as Core from '@shipixen/core'
 import type { ImageUrlBuilder } from '@sanity/image-url/lib/types/builder'
 
 import { getSanityClient } from './sanity-client'

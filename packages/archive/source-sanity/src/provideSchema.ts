@@ -1,6 +1,6 @@
 const getSanitySchema = require('@sanity/core/lib/actions/graphql/getSanitySchema')
-import * as core from '@contentlayer/core'
-import { pattern, pick } from '@contentlayer/utils'
+import * as core from '@shipixen/core'
+import { pattern, pick } from '@shipixen/utils'
 import type Schema from '@sanity/schema'
 
 import type * as Sanity from './sanity-types'

@@ -115,10 +115,10 @@
       }
     },
     {
-      "label": "build:@contentlayer/source-contentful",
+      "label": "build:@shipixen/source-contentful",
       "type": "shell",
       "command": "direnv exec . yarn build",
-      "options": { "cwd": "${workspaceFolder}/packages/@contentlayer/source-contentful" },
+      "options": { "cwd": "${workspaceFolder}/packages/@shipixen/source-contentful" },
       "presentation": {
         "focus": false,
         "panel": "dedicated",
@@ -129,10 +129,10 @@
       }
     },
     {
-      "label": "build:@contentlayer/source-sanity",
+      "label": "build:@shipixen/source-sanity",
       "type": "shell",
       "command": "direnv exec . yarn build",
-      "options": { "cwd": "${workspaceFolder}/packages/@contentlayer/source-sanity" },
+      "options": { "cwd": "${workspaceFolder}/packages/@shipixen/source-sanity" },
       "presentation": {
         "focus": false,
         "panel": "dedicated",

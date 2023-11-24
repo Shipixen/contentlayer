@@ -18,9 +18,9 @@
     "target": "ES2020",
     "plugins": [{ "transform": "@effect-ts/tracing-plugin" }],
     "paths": {
-      "@contentlayer/utils/*": ["./packages/@contentlayer/utils/src/*"],
-      "@contentlayer/source-files/*": ["./packages/@contentlayer/source-files/src/*"],
-      "@contentlayer/*": ["./packages/@contentlayer/*/src"],
+      "@shipixen/utils/*": ["./packages/@shipixen/utils/src/*"],
+      "@shipixen/source-files/*": ["./packages/@shipixen/source-files/src/*"],
+      "@shipixen/*": ["./packages/@shipixen/*/src"],
       "contentlayer/*": ["./packages/contentlayer/src/*"],
       "contentlayer": ["./pacakges/contentlayer/src"]
     }

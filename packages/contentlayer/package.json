@@ -1,6 +1,6 @@
 {
   "name": "contentlayer",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "bin": "./bin/cli.cjs",
   "type": "module",
   "engines": {
@@ -61,12 +61,12 @@
     "_bundle-cli": "esbuild ./dist/cli/index.js --bundle --platform=node --format=esm --external:esbuild --external:@esbuild-plugins/node-resolve --outfile=dist/cli/bundle.js --main-fields=module,main --metafile=meta.json --banner:js=\"import { createRequire as topLevelCreateRequire } from 'module'; const require = topLevelCreateRequire(import.meta.url); const __dirname = '__SET_BY_ESBUILD__';\""
   },
   "dependencies": {
-    "@contentlayer/cli": "workspace:*",
-    "@contentlayer/client": "workspace:*",
-    "@contentlayer/core": "workspace:*",
-    "@contentlayer/source-files": "workspace:*",
-    "@contentlayer/source-remote-files": "workspace:*",
-    "@contentlayer/utils": "workspace:*"
+    "@shipixen/cli": "workspace:*",
+    "@shipixen/client": "workspace:*",
+    "@shipixen/core": "workspace:*",
+    "@shipixen/source-files": "workspace:*",
+    "@shipixen/source-remote-files": "workspace:*",
+    "@shipixen/utils": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.1.6"

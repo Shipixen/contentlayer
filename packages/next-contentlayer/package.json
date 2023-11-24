@@ -1,6 +1,6 @@
 {
   "name": "@shipixen/next-contentlayer-module",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "type": "module",
   "main": "./dist/index-cjs.cjs",
   "sideEffects": false,
@@ -38,8 +38,8 @@
     "prepack": "sed -e '/^import/d' -e '/^export/d' dist/index-cjs.js > dist/index-cjs.cjs; cp src/hooks/jsx-runtime.cjs dist/hooks/jsx-runtime.cjs"
   },
   "dependencies": {
-    "@contentlayer/core": "workspace:*",
-    "@contentlayer/utils": "workspace:*"
+    "@shipixen/core": "workspace:*",
+    "@shipixen/utils": "workspace:*"
   },
   "peerDependencies": {
     "contentlayer": "workspace:*",

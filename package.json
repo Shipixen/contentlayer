@@ -2,7 +2,7 @@
   "name": "contentlayer-monorepo",
   "private": true,
   "workspaces": [
-    "./packages/@contentlayer/*",
+    "./packages/@shipixen/*",
     "./packages/*",
     "./examples/*"
   ],
@@ -13,7 +13,7 @@
     "build": "run build:clean && run build:ts && cd packages/next-contentlayer && npm run prepack",
     "build:ts": "tsc --build tsconfig.all.json",
     "dev:ts": "run build:ts --watch",
-    "build:clean": "bash -c 'rm -rf packages/*/dist packages/@contentlayer/*/dist'",
+    "build:clean": "bash -c 'rm -rf packages/*/dist packages/@shipixen/*/dist'",
     "examples:postinstall": "yarn workspaces foreach --verbose --include \"examples-*\" exec yarn contentlayer postinstall",
     "release:prerelease": "yarn build && yarn workspaces foreach --verbose --topological-dev --parallel --no-private npm publish --tolerate-republish --tag=dev",
     "release:patch": "yarn build && yarn workspaces foreach --verbose --topological-dev --parallel --no-private npm publish --tolerate-republish",
@@ -43,7 +43,7 @@
   "resolutions": {
     "esbuild": "0.18.0",
     "contentlayer": "workspace:*",
-    "@contentlayer/*": "workspace:*",
+    "@shipixen/*": "workspace:*",
     "contentlayer-stackbit-yaml-generator": "workspace:*",
     "@shipixen/next-contentlayer-module": "workspace:*",
     "rxjs": "^7.1.0"

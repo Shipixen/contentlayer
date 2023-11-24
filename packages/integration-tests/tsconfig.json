@@ -8,8 +8,8 @@
   },
   "include": ["./src"],
   "references": [
-    { "path": "../@contentlayer/utils" },
+    { "path": "../@shipixen/utils" },
     { "path": "../contentlayer" },
-    { "path": "../@contentlayer/core" }
+    { "path": "../@shipixen/core" }
   ]
 }

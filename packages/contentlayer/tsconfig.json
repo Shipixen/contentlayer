@@ -8,11 +8,11 @@
   },
   "include": ["./src"],
   "references": [
-    { "path": "../@contentlayer/cli" },
-    { "path": "../@contentlayer/client" },
-    { "path": "../@contentlayer/source-files" },
-    { "path": "../@contentlayer/source-remote-files" },
-    { "path": "../@contentlayer/utils" },
-    { "path": "../@contentlayer/core" }
+    { "path": "../@shipixen/cli" },
+    { "path": "../@shipixen/client" },
+    { "path": "../@shipixen/source-files" },
+    { "path": "../@shipixen/source-remote-files" },
+    { "path": "../@shipixen/utils" },
+    { "path": "../@shipixen/core" }
   ]
 }

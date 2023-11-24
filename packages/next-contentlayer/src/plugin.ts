@@ -1,8 +1,8 @@
-import '@contentlayer/utils/effect/Tracing/Enable'
+import '@shipixen/utils/effect/Tracing/Enable'
 
-import * as core from '@contentlayer/core'
-import { errorToString } from '@contentlayer/utils'
-import { E, OT, pipe, S, T } from '@contentlayer/utils/effect'
+import * as core from '@shipixen/core'
+import { errorToString } from '@shipixen/utils'
+import { E, OT, pipe, S, T } from '@shipixen/utils/effect'
 import type { WebpackOptionsNormalized } from 'webpack'
 
 import { checkConstraints } from './check-constraints.js'

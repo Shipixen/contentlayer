@@ -1,6 +1,6 @@
 {
   "name": "contentlayer-stackbit-yaml-generator",
-  "version": "0.3.4",
+  "version": "1.0.0",
   "type": "module",
   "bin": "./dist/cli/index.js",
   "exports": "./dist/lib/index.js",
@@ -15,8 +15,8 @@
     "test": "FORCE_COLOR=1 vitest"
   },
   "dependencies": {
-    "@contentlayer/core": "workspace:*",
-    "@contentlayer/utils": "workspace:*",
+    "@shipixen/core": "workspace:*",
+    "@shipixen/utils": "workspace:*",
     "@stackbit/sdk": "^0.3.25",
     "clipanion": "^3.2.1",
     "typanion": "3.12.1",

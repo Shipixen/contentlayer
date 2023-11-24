@@ -1,0 +1,19 @@
+{
+  "name": "@shipixen/client",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist/**/*.{js,ts,map}",
+    "./src",
+    "./package.json"
+  ],
+  "scripts": {
+    "test": "echo No tests yet"
+  },
+  "dependencies": {
+    "@shipixen/core": "workspace:*"
+  },
+  "license": "MIT"
+}

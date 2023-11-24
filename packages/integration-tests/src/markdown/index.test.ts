@@ -3,7 +3,7 @@ import * as fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import { absolutePosixFilePath } from '@contentlayer/utils'
+import { absolutePosixFilePath } from '@shipixen/utils'
 import * as core from 'contentlayer/core'
 import { defineDocumentType, makeSource } from 'contentlayer/source-files'
 import rehypeStringify from 'rehype-stringify'

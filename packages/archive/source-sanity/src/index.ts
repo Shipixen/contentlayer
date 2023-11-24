@@ -1,4 +1,4 @@
-import * as core from '@contentlayer/core'
+import * as core from '@shipixen/core'
 import type { MutationEvent } from '@sanity/client'
 import { defer, from, Observable, of } from 'rxjs'
 import { mergeMap, startWith } from 'rxjs/operators'

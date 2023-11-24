@@ -9,5 +9,5 @@
     "tsBuildInfoFile": "./dist/.tsbuildinfo.json"
   },
   "include": ["./src"],
-  "references": [{ "path": "../@contentlayer/utils" }, { "path": "../@contentlayer/core" }]
+  "references": [{ "path": "../@shipixen/utils" }, { "path": "../@shipixen/core" }]
 }

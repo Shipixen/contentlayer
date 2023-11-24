@@ -1,5 +1,5 @@
 {
-  "name": "@contentlayer/source-sanity",
+  "name": "@shipixen/source-sanity",
   "version": "0.2.6",
   "type": "module",
   "exports": "./dist/index.js",
@@ -16,8 +16,8 @@
     "@types/node": "^17.0.45"
   },
   "dependencies": {
-    "@contentlayer/core": "workspace:*",
-    "@contentlayer/utils": "workspace:*",
+    "@shipixen/core": "workspace:*",
+    "@shipixen/utils": "workspace:*",
     "@sanity/client": "^2.10.5",
     "@sanity/core": "^2.10.5",
     "@sanity/image-url": "^0.140.22",

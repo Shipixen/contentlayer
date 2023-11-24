@@ -1,1 +1,1 @@
-export * from '@contentlayer/source-remote-files'
+export * from '@shipixen/source-remote-files'

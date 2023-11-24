@@ -3,12 +3,12 @@
   "compilerOptions": {},
   "include": [],
   "references": [
-    { "path": "./packages/@contentlayer/cli" },
-    { "path": "./packages/@contentlayer/core" },
-    { "path": "./packages/@contentlayer/source-contentful" },
-    { "path": "./packages/@contentlayer/source-files" },
-    { "path": "./packages/@contentlayer/experimental-source-files-stackbit" },
-    { "path": "./packages/@contentlayer/utils" },
+    { "path": "./packages/@shipixen/cli" },
+    { "path": "./packages/@shipixen/core" },
+    { "path": "./packages/@shipixen/source-contentful" },
+    { "path": "./packages/@shipixen/source-files" },
+    { "path": "./packages/@shipixen/experimental-source-files-stackbit" },
+    { "path": "./packages/@shipixen/utils" },
     { "path": "./packages/contentlayer" },
     { "path": "./packages/contentlayer-stackbit-yaml-generator" },
     { "path": "./packages/next-contentlayer" }

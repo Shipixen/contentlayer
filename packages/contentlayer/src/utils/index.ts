@@ -1,1 +1,1 @@
-export * from '@contentlayer/utils'
+export * from '@shipixen/utils'
