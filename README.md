@@ -1,1 +1,1 @@
-/packages/shipixen-contentlayer
+/packages/shipixen-contentlayer/README.md
