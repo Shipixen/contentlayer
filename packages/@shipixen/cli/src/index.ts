@@ -1,4 +1,4 @@
-import '@shipixen/utils/effect/Tracing/Enable'
+// import '@shipixen/utils/effect/Tracing/Enable'
 
 import process from 'node:process'
 

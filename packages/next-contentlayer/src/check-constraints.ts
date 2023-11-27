@@ -26,7 +26,7 @@ const checkNodeVersion = () => {
 }
 
 const checkContentlayerVersionsMatch = () => {
-  const contentlayerVersion = getPackageVersion('contentlayer')
+  const contentlayerVersion = getPackageVersion('shipixen-contentlayer')
   const nextContentlayerVersion = getPackageVersion('@shipixen/next-contentlayer-module')
 
   if (contentlayerVersion !== nextContentlayerVersion) {

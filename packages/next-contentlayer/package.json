@@ -1,6 +1,6 @@
 {
   "name": "@shipixen/next-contentlayer-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "./dist/index-cjs.cjs",
   "sideEffects": false,
