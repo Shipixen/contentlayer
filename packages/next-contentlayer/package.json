@@ -1,6 +1,6 @@
 {
   "name": "@shipixen/next-contentlayer-module",
-  "version": "1.2.4",
+  "version": "2.0.2",
   "type": "module",
   "main": "./dist/index-cjs.cjs",
   "sideEffects": false,
@@ -42,7 +42,7 @@
     "@shipixen/utils": "workspace:*"
   },
   "peerDependencies": {
-    "next": "^12 || ^13 || ^14",
+    "next": "^12 || ^13 || ^14 || ^15",
     "react": "*",
     "react-dom": "*",
     "shipixen-contentlayer": "workspace:*"

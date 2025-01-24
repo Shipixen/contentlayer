@@ -1412,7 +1412,7 @@ __metadata:
     typescript: ^5.1.6
     webpack: ^5.88.1
   peerDependencies:
-    next: ^12 || ^13 || ^14
+    next: ^12 || ^13 || ^14 || ^15
     react: "*"
     react-dom: "*"
     shipixen-contentlayer: "workspace:*"
