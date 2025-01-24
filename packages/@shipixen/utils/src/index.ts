@@ -67,6 +67,8 @@ export const not =
     !guard(el)
 
 export const errorToString = (error: any) => {
+  if(!error) return '';
+
   const stack = process.env.CL_DEBUG ? error.stack : undefined
   const str = error.toString()
   const stackStr = stack ? `\n${stack}` : ''

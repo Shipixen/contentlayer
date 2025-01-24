@@ -12,8 +12,7 @@ import { ArtifactsDir } from '../ArtifactsDir.js'
 import type { HasCwd } from '../cwd.js'
 import { getCwd } from '../cwd.js'
 import type { DataCache } from '../DataCache.js'
-import type { SourceProvideSchemaError } from '../errors.js'
-import { SuccessCallbackError } from '../errors.js'
+import type { SourceProvideSchemaError , SuccessCallbackError } from '../errors.js'
 import * as esbuild from '../getConfig/esbuild.js'
 import type { Config } from '../getConfig/index.js'
 import type { SourceFetchDataError } from '../index.js'
@@ -129,13 +128,17 @@ const successCallback = (onSuccess: SuccessCallback | undefined) => {
   return pipe(
     getCwd,
     T.map((cwd) => ArtifactsDir.getDirPath({ cwd })),
-    T.tapSync((path) => console.log('successCallback', path)),
+    T.tapSync((path) => {
+      /* noop */
+    }),
     T.chain((generatedPkgPath) =>
       T.tryCatchPromise(
         () => onSuccess(
           () => import(URL.pathToFileURL(filePathJoin(generatedPkgPath, 'generated', 'index.mjs')).href)
         ),
-        (error) => new SuccessCallbackError({ error }),
+        (error) => {
+          /* noop */
+        },
       ),
     ),
     OT.withSpan('@shipixen/core/generation:successCallback'),
