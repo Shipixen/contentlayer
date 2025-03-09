@@ -1,6 +1,6 @@
 {
   "name": "shipixen-contentlayer",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "bin": "./bin/cli.cjs",
   "type": "module",
   "engines": {
