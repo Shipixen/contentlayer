@@ -1,6 +1,6 @@
 {
   "name": "shipixen-contentlayer-stackbit-yaml-generator",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "type": "module",
   "bin": "./dist/cli/index.js",
   "exports": "./dist/lib/index.js",

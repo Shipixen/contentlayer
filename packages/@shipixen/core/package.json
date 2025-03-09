@@ -3,7 +3,7 @@
     "@shipixen/utils": "workspace:*",
     "camel-case": "^4.1.2",
     "comment-json": "^4.2.3",
-    "esbuild": "0.17.x || 0.18.x || 0.24.x",
+    "esbuild": "0.25.x",
     "gray-matter": "^4.0.3",
     "mdx-bundler": "^9.2.1",
     "rehype-stringify": "^9.0.3",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "name": "@shipixen/core",
   "peerDependencies": {
-    "esbuild": "0.17.x || 0.18.x || 0.24.x",
+    "esbuild": "0.25.x",
     "markdown-wasm": "1.x"
   },
   "peerDependenciesMeta": {
@@ -43,5 +43,5 @@
   },
   "type": "module",
   "types": "./dist/index.d.ts",
-  "version": "2.0.5"
+  "version": "2.0.6"
 }
