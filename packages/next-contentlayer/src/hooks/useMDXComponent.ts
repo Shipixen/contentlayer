@@ -1,28 +1,31 @@
-import type { MDXComponents } from 'mdx/types'
-// NOTE use ESM/CommonJS compat import here until resolved: https://github.com/facebook/react/issues/11503
-import React from 'react'
-// NOTE use ESM/CommonJS compat import here until resolved: https://github.com/facebook/react/issues/11503
-import ReactDOM from 'react-dom'
+import { getMDXComponent as getMDXComponentOriginal } from '@shipixen/core/src/client'
+import * as React from 'react'
+import * as _jsx_dev_runtime from 'react/jsx-dev-runtime'
+import * as _jsx_runtime from 'react/jsx-runtime'
+import * as ReactDOM from 'react-dom'
 
-// @ts-expect-error React version workaround (This CJS workaround can be removed once Contentlayer is only targeting React 18+)
-import { _jsx_runtime } from './jsx-runtime.cjs'
-
-// NOTE This cjs-import workaround above is needed since there was a "breaking change"
-// on the import/export level from React v17 to v18.
-// This workaround should work in Next.js since it supports both CJS and ESM at the same time.
-//
-// See https://github.com/contentlayerdev/contentlayer/issues/162
-// import * as _jsx_runtime from 'react/jsx-runtime'
-
-type MDXContentProps = {
-  [props: string]: unknown
-  components?: MDXComponents
+// Pass in the React module into the evaluated code instead of having the evaluated code import React
+// See https://github.com/timlrx/contentlayer2/issues/66
+const defaultRuntime = {
+  React,
+  ReactDOM,
+  _jsx_runtime: process.env.NODE_ENV === 'production' ? _jsx_runtime : _jsx_dev_runtime,
 }
 
-export const getMDXComponent = (code: string, globals: Record<string, unknown> = {}): React.FC<MDXContentProps> => {
-  const scope = { React, ReactDOM, _jsx_runtime, ...globals }
-  const fn = new Function(...Object.keys(scope), code)
-  return fn(...Object.values(scope)).default
+/**
+ * Get an MDX component from compiled MDX code
+ *
+ * @param code - The string of code you got from bundleMDX
+ * @param globals - Any variables your MDX needs to have accessible when it runs
+ * @returns A React component that renders the MDX content
+ */
+export const getMDXComponent = (code: string, globals: Record<string, unknown> = {}) => {
+  const options = {
+    ...defaultRuntime,
+    ...globals,
+  }
+
+  return getMDXComponentOriginal(code, options)
 }
 
 export const useMDXComponent = (code: string, globals: Record<string, unknown> = {}) => {

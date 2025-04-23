@@ -5,7 +5,7 @@
     "comment-json": "^4.2.3",
     "esbuild": "0.25.x",
     "gray-matter": "^4.0.3",
-    "mdx-bundler": "^9.2.1",
+    "mdx-bundler": "^10.1.1",
     "rehype-stringify": "^9.0.3",
     "remark-frontmatter": "^4.0.1",
     "remark-parse": "^10.0.2",
@@ -43,5 +43,5 @@
   },
   "type": "module",
   "types": "./dist/index.d.ts",
-  "version": "2.0.6"
+  "version": "2.0.8"
 }
